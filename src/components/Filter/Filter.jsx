@@ -10,8 +10,6 @@ export const Filter = ({ filter, findContact, clearInput }) => {
           value={filter}
           onChange={findContact}
           placeholder={'search'}
-          onBlur={clearInput}
-          onMouseLeave={clearInput}
         />
       </Label>
     </>
